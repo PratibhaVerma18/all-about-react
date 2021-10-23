@@ -27,3 +27,4 @@ class Bind2 extends React.Component {
 }
 }
 export default Bind2;
+

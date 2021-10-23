@@ -1,30 +1,29 @@
-import './index.css';
+// import './index.css';
 import './assets/bootstrap/Flip.css';
-// import Ternary1 from './Components/Ternary1';
-// import Employee from './Components/Empolyee';
-// import Hooks2  from './Hoooks/Hooks2';
-//  import Hooks from './Hoooks/Hooks';
-// import Event from './Events/Event';
-// import Bind from './Binding/Bind';
-// import Bind2 from './Binding/Bind2';
-//  import Hooks3 from './Hoooks/Hooks3';
-import Form from './FORM/Form';
-function App() {
-  return (
-    <>
-     {/* <Hooks/> */}
-     {/* <Hooks2/> */}
-     {/* <Hooks3/> */}
-     {/* <Event/> */}
-{/* <hr /> */}
-     {/* <Bind/>
-     <Bind2/> */}
-     {/* <Employee/> */}
-     {/* <Ternary1/> */}
-     <Form/>
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./NAVBAR/Navbar";
+ import Empolyee from "./Components/Empolyee";
+import Login2 from "./LOGIN/Login2";
+import Form1 from "./FORM/Form1";
 
-    </>
-  );
+
+
+class App extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Router>
+          <Navbar />
+          <hr />
+          <Switch>
+            <Route path="/Login2" component={Login2} /> 
+            <Route path="/Empolyee" component={Empolyee} />
+            <Route path="/Form1" component={Form1} />
+          </Switch>
+        </Router>
+      </React.Fragment>
+    );
+  }
 }
-
 export default App;

@@ -1,14 +1,14 @@
  button {
-    padding: 12px 20px;
+    /* padding: 12px 20px; */
     background:plum ;
     color: white; 
     /* line-height: 24px;  */
  
-    border-radius: 5px;
+    /* border-radius: 5px;
     border: 2px solid burlywood;
     text-transform: uppercase;
     cursor: pointer;
-     /* text-align: center; */
+     text-align: center; */
      /* align-items: center;  */
  }
 h1{
@@ -21,21 +21,23 @@ div{
     align-items:center ;
 
      text-align: center; 
-    padding: 0 20px;
-     border: 2px solid grey; 
+    /* padding: 0 20px; */
+     /* border: 2px solid grey;  */
      outline: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    background-size: auto;
     /* flex-direction: column;  */
  } 
 *{
-    /* background-color: honeydew; */
-    padding: 0;
-    margin: 0;
-    background-color: thistle;
+    background-color: rgb(40, 160, 40);
+    /* padding: 0;
+    margin: 0; */
+    /* background-color: thistle; */
     /* display: flex; */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* background-size: auto; */
 
 }
 
@@ -45,4 +47,7 @@ input{
     border: none;
     margin: 20px 0;
     text-align: center;
+    background-color:white ;
+    /* text-shadow: 0 2px 2px black;  */
+    border: 2px solid black;
 } 
